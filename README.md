@@ -65,7 +65,7 @@ python -m venv .venv
 .venv/Scripts/python siz_demo.py --source 0 --show        # веб-камера, только опасная зона
 ```
 
-Стандартная модель `yolov8n.pt` (скачается сама) видит только людей, поэтому проверяется только зона. Каски и жилеты видит обученная модель СИЗ: скачай [ppe_yolov8s.pt](https://github.com/grozeser/siz-vision/releases/download/v1.0/ppe_yolov8s.pt) (22 МБ) из релиза и передай в `--model`.
+Стандартная модель `yolov8n.pt` (скачается сама) видит только людей, поэтому проверяется только зона. Каски и жилеты видит обученная модель СИЗ: скачай [ppe_yolov8s.pt](https://github.com/grozeser/siz-vision-src/releases/download/v1.0/ppe_yolov8s.pt) (22 МБ) из релиза и передай в `--model`.
 
 ```bash
 # видео + модель СИЗ + опасная зона + три узла ТО, с записью размеченного видео
