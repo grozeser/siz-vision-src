@@ -1,0 +1,9 @@
+.venv/
+datasets/
+runs/
+violations/
+*.pt
+*.mp4
+WORKLOG.md
+__pycache__/
+grant/
